@@ -1,22 +1,20 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import { Button } from 'carbon-components-react'
 
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Home"/>
 
     <div style={{width: 200, height: 200}}>
       <Image />
     </div>
 
    
-    <h1 style={{ marginTop: 50 }}>RESUMO</h1>
+    <h1 >RESUMO</h1>
     <p>
       O Robô Instagram é o maior e mais popular ferramenta de automação do Instagram. Sua incrível variedade de recursos o torna a ferramenta uma boa opção para aumentar sua conta e direcionar seu público principal da melhor maneira possível.
     </p>
@@ -56,6 +54,12 @@ const IndexPage = () => (
 
     <h3>Instalção Geral Ambiente Windows</h3>
 
+  <div style={{ 
+    backgroundColor: "rgba(242, 242, 242, 1)", 
+    width: 500,
+    borderRadius: '8px',
+    padding: 30 
+    }} > 
     <p>Primeiramente é preciso de baixar e instalar os programas:</p>
     <a href="https://www.python.org">Python: https://www.python.org/ + patch</a> 
     <br/>
@@ -63,11 +67,17 @@ const IndexPage = () => (
     <p>Para instalação abrimos o CMD(Prompt de Comando) como administrador e digitamos o seguinte comando:</p>
     <p>pip install instapy</p>
     <p>Importante: dependendo do seu sistema, certifique-se de usar pip3 e python3.</p>
-
-    <h3>Instalção Geral Ambiente Linux</h3>
-
-   
+  </div>
     
+
+    <h3 >Instalção Geral Ambiente Linux</h3>
+
+  <div style={{ 
+    backgroundColor: "rgba(242, 242, 242, 1)", 
+    width: 500,
+    borderRadius: '8px',
+    padding: 30 
+    }}>
     <p>$ sudo apt-get update</p>
     <p>$ sudo apt-get -y upgrade</p>
     <p>$ sudo apt-get -y install unzip python3-pip python3-dev build-essential libssl-dev libffi-dev xvfb</p>
@@ -78,23 +88,39 @@ const IndexPage = () => (
     <p>$ locale-gen en_US.UTF-8</p>
     <p>$ sudo dpkg-reconfigure locales</p>
     <p>$ pip3 install --upgrade pip</p>
-
+  </div>
+    
     <h3>Configurações Chrome-stable</h3>
 
-    <p>$ cd ~</p>
-    <p>$ wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"</p>
-    <p>$ sudo dpkg -i google-chrome-stable_current_amd64.deb</p>
-    <p>$ sudo apt-get install -y -f</p>
-    <p>$ sudo rm google-chrome-stable_current_amd64.deb</p>
+  <div style={{ 
+      backgroundColor: "rgba(242, 242, 242, 1)", 
+      width: 500,
+      borderRadius: '8px',
+      padding: 30 
+      }} >
+      <p>$ cd ~</p>
+      <p>$ wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"</p>
+      <p>$ sudo dpkg -i google-chrome-stable_current_amd64.deb</p>
+      <p>$ sudo apt-get install -y -f</p>
+      <p>$ sudo rm google-chrome-stable_current_amd64.deb</p>
 
-    <h3>Configurações Chrome-stable</h3>
-    <p>$ pip install instapy</p>
+      <p>$ pip install instapy</p>
+  </div>
+   
 
-  <h2>5.1.3 Ambiente MacOs</h2>
-  <p>Faça download do arquivo</p>
-  <a href=" https://github.com/InstaPy/instapy-quickstart"> https://github.com/InstaPy/instapy-quickstart  </a>
+  <h3 >5.1.3 Ambiente MacOs</h3>
 
-  <h2 style={{ marginTop: 50 }}>Executando Robô Instagram</h2>
+  <div style={{ 
+      backgroundColor: "rgba(242, 242, 242, 1)", 
+      width: 500,
+      borderRadius: '8px',
+      padding: 30 
+      }}>
+    <p>Faça download do arquivo</p>
+    <a href=" https://github.com/InstaPy/instapy-quickstart"> https://github.com/InstaPy/instapy-quickstart  </a>
+  </div>
+ 
+  <h3 >Executando Robô Instagram</h3>
 
   <p>Para executar o Robô do Instagram, você precisará executar o script de início rápido que acabou de baixar.</p>
   <p>Você pode inserir os detalhes de sua conta agora, passando os parâmetros de nome de usuário e senha para a função InstaPy() em seu script de início rápido, assim:</p>
