@@ -3,7 +3,9 @@ import React from "react"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Video from "../components/video"
 
+import "../components/layout.css"
 
 const IndexPage = () => (
   <Layout>
@@ -120,25 +122,36 @@ const IndexPage = () => (
     <a href=" https://github.com/InstaPy/instapy-quickstart"> https://github.com/InstaPy/instapy-quickstart  </a>
   </div>
  
+  <div style={{
+    backgroundColor: "rgba(242, 242, 242, 1)", 
+    width: 500,
+    borderRadius: '8px',
+    padding: 30
+  }}>
   <h3 >Executando Robô Instagram</h3>
 
-  <p>Para executar o Robô do Instagram, você precisará executar o script de início rápido que acabou de baixar.</p>
-  <p>Você pode inserir os detalhes de sua conta agora, passando os parâmetros de nome de usuário e senha para a função InstaPy() em seu script de início rápido, assim:</p>
+    <p>Para executar o Robô do Instagram, você precisará executar o script de início rápido que acabou de baixar.</p>
+    <p>Você pode inserir os detalhes de sua conta agora, passando os parâmetros de nome de usuário e senha para a função InstaPy() em seu script de início rápido, assim:</p>
 
-    <h4>InstaPy(username="abcd",  password="1234")</h4>
+      <h4>InstaPy(username="abcd",  password="1234")</h4>
 
-  <p>Ou você pode passá-los usando a interface de linha de comando (CLI).</p>
-  <p>Depois de configurar o script de início rápido, você pode executá-lo com os comandos a seguir.</p>
+    <p>Ou você pode passá-los usando a interface de linha de comando (CLI).</p>
+    <p>Depois de configurar o script de início rápido, você pode executá-lo com os comandos a seguir.</p>
 
-  <h4>python quickstart.py	ou	python quickstart.py --username abcd --password 1234</h4>
+    <h4>python quickstart.py	ou	python quickstart.py --username abcd --password 1234</h4>
 
-  <p>O Robô do Instagram agora abrirá uma janela do navegador e começará a trabalhar.</p>
-  <p>Se quiser que o Robô do Instagram seja executado em segundo plano, passe a opção --headless-browser ao executar a partir da CLI</p>
-  <p>Ou adicione o parâmetro headless_browser = True dentro do arquivo do robô.</p>
+    <p>O Robô do Instagram agora abrirá uma janela do navegador e começará a trabalhar.</p>
+    <p>Se quiser que o Robô do Instagram seja executado em segundo plano, passe a opção --headless-browser ao executar a partir da CLI</p>
+    <p>Ou adicione o parâmetro headless_browser = True dentro do arquivo do robô.</p>
 
-  <h2>Atualizando Robô Instagram</h2>
+    <h2>Atualizando Robô Instagram</h2>
 
-  <h4>pip install instapy -U</h4>
+    <h4>pip install instapy -U</h4>
+  </div>
+
+  <h2>Explicação mais aprofundada</h2>
+
+    <Video videoSrcURL="https://www.youtube.com/embed/JOh5sxficvM" videoTitle="Explicação aprofundada" />
 
   </Layout>
 )

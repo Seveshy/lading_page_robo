@@ -36,8 +36,15 @@ summary {
 audio,
 canvas,
 progress,
-video {
-  display: inline-block;
+
+.video {
+  width: 100%;
+}
+.code {
+  background-color: "rgba(242, 242, 242, 1)"; 
+  width: 500;
+  border-radius: '8px';
+  padding: 30 
 }
 audio:not([controls]) {
   display: none;
@@ -267,7 +274,7 @@ h2 {
   font-size: 1.62671rem;
   line-height: 1.1;
 }
-h3 {
+h3, h2 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 20px;
@@ -458,14 +465,8 @@ noscript {
   margin-bottom: 1.45rem;
 }
 iframe {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
+  width: 100%;
+  min-height: -webkit-fill-available;
 }
 address {
   margin-left: 0;
