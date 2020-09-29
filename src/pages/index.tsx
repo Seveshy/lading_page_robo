@@ -58,7 +58,6 @@ const IndexPage = () => (
 
   <div style={{ 
     backgroundColor: "rgba(242, 242, 242, 1)", 
-    width: 500,
     borderRadius: '8px',
     padding: 30 
     }} > 
@@ -76,7 +75,6 @@ const IndexPage = () => (
 
   <div style={{ 
     backgroundColor: "rgba(242, 242, 242, 1)", 
-    width: 500,
     borderRadius: '8px',
     padding: 30 
     }}>
@@ -96,8 +94,7 @@ const IndexPage = () => (
 
   <div style={{ 
       backgroundColor: "rgba(242, 242, 242, 1)", 
-      width: 500,
-      borderRadius: '8px',
+        borderRadius: '8px',
       padding: 30 
       }} >
       <p>$ cd ~</p>
@@ -114,8 +111,7 @@ const IndexPage = () => (
 
   <div style={{ 
       backgroundColor: "rgba(242, 242, 242, 1)", 
-      width: 500,
-      borderRadius: '8px',
+        borderRadius: '8px',
       padding: 30 
       }}>
     <p>Faça download do arquivo</p>
@@ -124,7 +120,6 @@ const IndexPage = () => (
  
   <div style={{
     backgroundColor: "rgba(242, 242, 242, 1)", 
-    width: 500,
     borderRadius: '8px',
     padding: 30
   }}>
