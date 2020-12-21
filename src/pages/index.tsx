@@ -2,6 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
+import SegueImage from "../components/Images/SegueImage/index"
+import BussinessImage from "../components/Images/BussinessImage/index"
 import SEO from "../components/seo"
 import Video from "../components/video"
 
@@ -15,7 +17,6 @@ const IndexPage = () => (
       <Image />
     </div>
 
-   
     <h1 >RESUMO</h1>
     <p>
       O Robô Instagram é o maior e mais popular ferramenta de automação do Instagram. Sua incrível variedade de recursos o torna a ferramenta uma boa opção para aumentar sua conta e direcionar seu público principal da melhor maneira possível.
@@ -27,31 +28,15 @@ const IndexPage = () => (
     Também veremos lógicas mais complexas que fornecem a você ainda mais poder e permitem que você realmente impulsione sua conta.
     </p>
 
-    <h2>Conceito de Multimídia</h2>
 
-    <p>Multimídia: Programas e sistemas em que a comunicação entre homem e computador se dá através de múltiplos meios de representação de informação (p.ex.: áudio, imagem estática, animação, gráficos e texto), ou seja, multimídia é o conjunto de recursos que visam estimular todos os sentidos, porém, os mais usuais são a visão e a audição. Multimídia significa que uma informação digital pode ser representada através de áudio, vídeo e animação em conjunto com mídias tradicionais (texto, gráficos e imagens) simultaneamente. </p>
-
-    <p>Os programas que permitem ao contador fazer as apresentações e interagir com seus olhos são os produtos multimídia os produtos multimídias podem ser usados para permitir aos usuários diferentes graus de interação tais como:</p>
-    
-    <p>- Percorrer material ao divisor de forma não-linear.</p>
-
-    <p>- Consultar pesquisar e atualizar material armazenado em bases de dados audiovisuais.</p>
-
-    <p>- Efetuar simulações sistemas físicos como menor ou maior grau de realismo.</p>
-    
-    <h2>Conceito de Compiladores</h2>
-    
-    <p>Compilador: é um programa de computador (ou um grupo de programas) que, a partir de um código fonte escrito em uma linguagem compilada, cria um programa semanticamente equivalente, porém escrito em outra linguagem, código objeto. Classicamente, um compilador traduz um programa de uma linguagem textual facilmente entendida por um ser humano para uma linguagem de máquina , específica para um processador e sistema operacional.</p>
-    
-
-    <h2>Objetivo geral</h2>
-
-    <p>Mostrar através da linguagem Python o conceito de Compiladores e Multimídia uma ferramenta para automação de uma grande empresa de mídia social chamada  Instagram. Através de bibliotecas e comandos, estaremos abordando pontos específicos da linguagem que são bastante utilizadas por muitos desenvolvedores para simular um comportamento humano dentro de uma plataforma digital.</p>
+    <SegueImage />
     
     <h2>Motivação</h2>
 
     <p>Foi identificado uma oportunidade para comercializar o robô no mercado de mídias sociais. Com a crescente alta dos usuários do instagram querendo monetizar o perfil através de seguidores. Foi avaliado que o robô pode resolver essa for, automatizando as interações dos usuários, e aumentando o número de seguidores.</p>
 
+    <BussinessImage/>
+    
     <h2>Instalação</h2>
 
     <h3>Instalção Geral Ambiente Windows</h3>
